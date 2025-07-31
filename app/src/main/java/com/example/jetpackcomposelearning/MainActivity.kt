@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
                    CounterScreen()
 ////                    Greet("guys")
 //                    ProfileCard("Sanjay",20, Color.Companion.Cyan)
-//
+
                   }
 
 
