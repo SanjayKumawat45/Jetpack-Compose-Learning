@@ -30,7 +30,7 @@ fun CounterScreen() {
 
         Button(onClick = {
             count++
-        }, modifier = Modifier.fillMaxWidth()) {
+        }) {
             Text("Increase")
         }
     }

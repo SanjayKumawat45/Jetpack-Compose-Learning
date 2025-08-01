@@ -25,13 +25,14 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             JetpackComposeLearningTheme {
-               Column(modifier = Modifier.fillMaxSize(),
-                   verticalArrangement = Arrangement.Center,
-                   horizontalAlignment = Alignment.CenterHorizontally
-                   ) {
-                   CounterScreen()
+//               Column(modifier = Modifier.fillMaxSize(),
+//                   verticalArrangement = Arrangement.Center,
+//                   horizontalAlignment = Alignment.CenterHorizontally
+//                   ) {
+//                   CounterScreen()
 ////                    Greet("guys")
 //                    ProfileCard("Sanjay",20, Color.Companion.Cyan)
+                ColumnLayoutPrev()
 
                   }
 
@@ -40,5 +41,5 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-}
+
 
