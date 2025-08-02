@@ -34,7 +34,11 @@ class MainActivity : ComponentActivity() {
 ////                    Greet("guys")
 //                    ProfileCard("Sanjay",20, Color.Companion.Cyan)
 //                ColumnLayoutPrev()
-                LazyColumExample()
+//                LazyColumExample()
+//                 CounterExample()
+                ToggleExample()
+
+
 
             }
         }
