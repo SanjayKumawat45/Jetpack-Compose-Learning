@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeContentPadding
 import androidx.compose.foundation.layout.safeDrawingPadding
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -32,14 +33,12 @@ class MainActivity : ComponentActivity() {
 //                   CounterScreen()
 ////                    Greet("guys")
 //                    ProfileCard("Sanjay",20, Color.Companion.Cyan)
-                ColumnLayoutPrev()
-
-                  }
-
-
+//                ColumnLayoutPrev()
+                LazyColumExample()
 
             }
         }
     }
+}
 
 
